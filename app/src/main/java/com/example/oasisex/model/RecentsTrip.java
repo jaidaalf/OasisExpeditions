@@ -1,0 +1,46 @@
+package com.example.oasisex.model;
+
+
+    public class RecentsTrip {
+        String PlaceName;
+        String Country;
+        String Price;
+        Integer ImageUrl;
+
+        public RecentsTrip(String PlaceName, String Country, String Price, Integer ImageUrl) {
+            this.PlaceName = PlaceName;
+            this.Country = Country;
+            this.Price = Price;
+            this.ImageUrl = ImageUrl;
+
+        }
+
+        public String getPlaceName() {
+            return PlaceName;
+        }
+
+        public String getCountry() {
+            return Country;
+        }
+
+        public String getPrice() {
+            return Price;
+        }
+
+        public Integer getImageUrl() {
+            return ImageUrl;
+        }
+
+        public void setPlaceName(String placeName) {
+            PlaceName = placeName;
+        }
+
+        public void setCountry(String country) {
+            Country = country;
+        }
+
+        public void setPrice(String price) {
+            Price = price;
+        }
+    }
+
